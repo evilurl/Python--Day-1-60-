@@ -60,3 +60,30 @@ print(type(l), l)
 
 m = i + j
 print(type(int(m)), int(m))
+
+#----< INTEGER DATA TYPE >----
+
+# Base(n) to Base(10) CONVERSION
+# (1010)2 -> Base(10)
+n = 0b1010
+print(type(n), n)
+
+# (72)8 -> Base(10)
+o = 0o72
+print(type(o), o)
+
+# (50)16 -> Base(10)
+p = 0x50
+print(type(p), p)
+
+# (ff) -> Base(10)
+q = 0xff
+print(type(q), q)
+
+#----< FLOATING DATA TYPE >----
+
+r = 2.01e5
+print(type(r), r)
+
+s = 3.92E-5
+print(type(s), s)
