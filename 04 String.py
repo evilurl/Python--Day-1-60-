@@ -62,4 +62,42 @@ print(country)
 country = '\x65Turkey' #   \xhh - hex value
 print(country)
 
+print("\n")
+
 #----< Formatted Strings >----
+first = 'Harry'
+last = 'James'
+
+fullName = first + ' ' + last
+print(fullName)
+
+fullName = f"{first} {last}"
+print(fullName)
+
+fullName = F"{first} {last}"
+print(fullName)
+
+print("\n")
+
+#----< String Methods >----
+
+course = 'Python101'
+print(course.upper())
+
+course = 'Python101'
+print(course.lower())
+
+course = 'python101 program'
+print(course.title())
+
+course = '  python101 program'
+print(course)
+print(course.strip()) # removes spaces in the start
+print(course.lstrip()) # removes spaces from left
+print(course.rstrip()) # removes spaces from the right
+print(course.find('101')) # return index of the number to find
+print('pro' in course) # return value in ture/false
+print('hello' not in course)
+print(course.replace('p' , 'h'))
+
+
