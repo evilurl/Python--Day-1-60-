@@ -99,5 +99,3 @@ print(course.find('101')) # return index of the number to find
 print('pro' in course) # return value in ture/false
 print('hello' not in course)
 print(course.replace('p' , 'h'))
-
-
